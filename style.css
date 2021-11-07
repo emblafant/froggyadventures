@@ -9,17 +9,31 @@ body {
   color: #193f6a;
   background-color: #9abaa0;
 }
+#speech-bubble-text {
+  font-size: 4vh;
+  text-transform: lowercase;
+}
+
 
 #input {
+  font-family: Emblafont-Regular;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #f8ebe1;
+  font-size: 7vh;
+  text-align: center;
+
+  margin-top: 5vh;
+
   border: none;
-  width: 5ch;
+  width: 16vh;
   background: 
     repeating-linear-gradient(90deg,
-      black 0,
-      black 1ch,
+      #f8ebe1 0,
+      #f8ebe1 1ch,
       transparent 0,
-      transparent 1.5ch)
-    0 100%/100% 2px no-repeat;
+      transparent 1.6ch)
+    0 100%/100% 5px no-repeat;
   font: 5ch;
   letter-spacing: .5ch;
 }
@@ -85,6 +99,7 @@ body {
   font-family: Emblafont-Regular;
   font-weight: bolder;
   color: #193f6a;
+  text-transform: uppercase;
 }
 
 #submit-button:hover {

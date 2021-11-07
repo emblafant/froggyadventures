@@ -32,9 +32,13 @@ button.addEventListener("click", () => {
   if (inputCode.length === 4) {
     codes.forEach(code => {
       if (inputCode.toUpperCase() === code.code.toUpperCase()) {
+        document.querySelector("#speech-bubble-text").style.fontSize = "2.8vh";
+
+        document.querySelector("#input").readOnly = true;
         angryFrog = false;
-        monsterText.innerText = code.message;
         match = true;
+
+        monsterText.innerText = code.message;
         button.innerText = "Again!" 
         button.addEventListener("click", () =>{
             location.reload();
@@ -53,7 +57,7 @@ button.addEventListener("click", () => {
     illustration.src="Angry-frog.PNG";
     body.style.backgroundColor = "#f2aea3";
   } else {
-    illustrtion.src="Happy-frog.PNG";
+    illustration.src="Happy-frog.PNG";
     body.style.backgroundColor = "#9abaa0";
   }
 
