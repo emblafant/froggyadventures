@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Emblafont-Regular";
+  src: url(Emblafont-Regular.otf);
+}
+
+body {
+  font-family: Emblafont-Regular;
+  font-weight: bolder;
+  color: #193f6a;
+  background-color: #9abaa0;
+}
+
+#input {
+  border: none;
+  width: 5ch;
+  background: 
+    repeating-linear-gradient(90deg,
+      black 0,
+      black 1ch,
+      transparent 0,
+      transparent 1.5ch)
+    0 100%/100% 2px no-repeat;
+  font: 5ch;
+  letter-spacing: .5ch;
+}
+#input:focus {
+  outline: none;
+}
+
+.hide {
+  display: none;
+}
+
+#speech-bubble {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+#speech-bubble img {
+  height: 25vh;
+}
+
+#speech-bubble p{
+  position: absolute;
+}
+
+#monster {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#monster-illustration {
+  height: 45vh;
+}
+
+#monster input {
+  position: absolute;
+} 
+
+.button-wrapper {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+  margin-bottom: 10vh;
+}
+
+#submit-button {
+  height: 7vh;
+  border: none;
+  background-color: inherit;
+  font-size: 7vh;
+  font-family: Emblafont-Regular;
+  font-weight: bolder;
+  color: #193f6a;
+}
+
+#submit-button:hover {
+  color: #064f94;
+}
