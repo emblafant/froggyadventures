@@ -8,10 +8,7 @@ body {
   font-weight: bolder;
   color: #193f6a;
   background-color: #9abaa0;
-}
-#speech-bubble-text {
-  font-size: 4vh;
-  text-transform: lowercase;
+  text-align: center;
 }
 
 
@@ -20,12 +17,16 @@ body {
   font-weight: bolder;
   text-transform: uppercase;
   color: #f8ebe1;
-  font-size: 7vh;
+  font-size: 8vh;
   text-align: center;
 
   margin-top: 5vh;
 
   border: none;
+  width: 22vh;
+  background: transparent;
+
+  /*border: none;
   width: 16vh;
   background: 
     repeating-linear-gradient(90deg,
@@ -35,10 +36,16 @@ body {
       transparent 1.6ch)
     0 100%/100% 5px no-repeat;
   font: 5ch;
-  letter-spacing: .5ch;
+  letter-spacing: .5ch;*/
 }
 #input:focus {
   outline: none;
+}
+
+#input::placeholder {
+  color:#f8ebe1;
+  font-size: 5vh;
+  opacity: 0.2;
 }
 
 .hide {
@@ -61,6 +68,12 @@ body {
 
 #speech-bubble p{
   position: absolute;
+}
+
+#speech-bubble-text {
+  font-size: 4vh;
+  text-transform: lowercase;
+  width: 30vh;
 }
 
 #monster {

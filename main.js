@@ -10,6 +10,10 @@ const codes =  [
   {
     code: "Aaaa",
     message: "bye"
+  },
+  {
+    code: "3333",
+    message: "Tie pillows to your arms and torso, then have a sumo wrestling match"
   }
 ];
 
@@ -19,6 +23,7 @@ const responses = {
 };
 
 const body = document.querySelector("body");
+const speechBubble = document.querySelector("#speech-bubble");
 const monsterText = document.querySelector("#speech-bubble-text");
 const illustration = document.querySelector("#monster-illustration");
 
@@ -34,11 +39,13 @@ button.addEventListener("click", () => {
       if (inputCode.toUpperCase() === code.code.toUpperCase()) {
         document.querySelector("#speech-bubble-text").style.fontSize = "2.8vh";
 
-        document.querySelector("#input").readOnly = true;
+        /*document.querySelector("#input").readOnly = true;*/
+        document.querySelector("#input").style.display = "none";
         angryFrog = false;
         match = true;
 
-        monsterText.innerText = code.message;
+        monsterText.innerHTML = code.message;
+
         button.innerText = "Again!" 
         button.addEventListener("click", () =>{
             location.reload();
