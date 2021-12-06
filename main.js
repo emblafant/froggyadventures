@@ -375,59 +375,235 @@ const codes =  [
   },  {
     number: 93,
     code: "FI0R",
-    message: ""
+    message: "Make sure everyone you love knows it"
   },  {
     number: 94,
-    code: "",
-    message: ""
+    code: "N67X",
+    message: "Order prints of photos you cherish"
   },  {
     number: 95,
-    code: "",
-    message: ""
+    code: "J92Q",
+    message: "Go stargazing"
   },  {
     number: 96,
-    code: "",
-    message: ""
+    code: "1ZWL",
+    message: "Follow a complex recipe"
   },  {
     number: 97,
-    code: "",
-    message: ""
+    code: "YIS1",
+    message: "Follow a recipe in Spanish"
   },  {
     number: 98,
-    code: "",
-    message: ""
+    code: "5R78",
+    message: "Take a day off work"
   },  {
     number: 99,
-    code: "",
-    message: ""
+    code: "6AS2",
+    message: "Go to the cinema by yourself"
   },  {
     number: 100,
-    code: "",
-    message: ""
+    code: "FOK9",
+    message: "Listen to a whole album by an artist you dislike"
   },  {
     number: 101,
-    code: "",
-    message: ""
+    code: "31FO",
+    message: "Play the lottery"
   },  {
     number: 102,
-    code: "",
-    message: ""
+    code: "II3X",
+    message: "Apply for a job that is way above your experience level"
   },  {
     number: 103,
-    code: "",
-    message: ""
+    code: "JUZI",
+    message: "Find something to buy on Wish"
   },  {
     number: 104,
-    code: "",
-    message: ""
+    code: "5W4E",
+    message: "Go for a walk in the rain"
   },  {
     number: 105,
-    code: "",
-    message: ""
+    code: "8BHZ",
+    message: "Trigger people on the internet"
   },  {
     number: 106,
-    code: "",
-    message: ""
+    code: "2NM9",
+    message: "Donate 100 kr"
+  },  {
+    number: 107,
+    code: "7N8D",
+    message: "Cook a nice meal for someone"
+  },  {
+    number: 108,
+    code: "M6CZ",
+    message: "Watch a top-rated movie that you haven’t seen yet"
+  },  {
+    number: 109,
+    code: "XFM6",
+    message: "Borrow some books at the library"
+  },  {
+    number: 110,
+    code: "SF05",
+    message: "Make funny-brownies"
+  },  {
+    number: 111,
+    code: "6GLM",
+    message: "Ask someone for a movie recommendation and watch it"
+  },  {
+    number: 112,
+    code: "PV31",
+    message: "Go secondhand shopping"
+  },  {
+    number: 113,
+    code: "8ZSD",
+    message: "Don’t spend any money for 3 days"
+  },  {
+    number: 114,
+    code: "IKT6",
+    message: "Make crepes"
+  },  {
+    number: 115,
+    code: "YWNP",
+    message: "Bake kladdkaka"
+  },  {
+    number: 116,
+    code: "A3RH",
+    message: "Buy a funny looking drink at an Asian food market"
+  },  {
+    number: 117,
+    code: "VMK8",
+    message: "Spend a whole day at MOS"
+  },  {
+    number: 118,
+    code: "X7AK",
+    message: "Call your grandparents"
+  },  {
+    number: 119,
+    code: "EOA9",
+    message: "Harry Potter Marathon"
+  },  {
+    number: 120,
+    code: "AGO0",
+    message: "Watch a documentary"
+  },  {
+    number: 121,
+    code: "PF8T",
+    message: "Go to karaoke"
+  },  {
+    number: 122,
+    code: "3ZBV",
+    message: "Buy and play an indie game on the Switch"
+  },  {
+    number: 123,
+    code: "XV23",
+    message: "Try Caribbean cuisine"
+  },  {
+    number: 124,
+    code: "KHZ8",
+    message: "Try Moroccan cuisine"
+  },  {
+    number: 125,
+    code: "Q7L8",
+    message: "Make Japanese soufflé pancakes"
+  },  {
+    number: 126,
+    code: "7N1E",
+    message: "Make mochi ice cream"
+  },  {
+    number: 127,
+    code: "K1BC",
+    message: "Visit Oslo"
+  },  {
+    number: 128,
+    code: "BJHI",
+    message: "Fingerpaint"
+  },  {
+    number: 129,
+    code: "PQ2J",
+    message: "Have breakfast for dinner"
+  },  {
+    number: 130,
+    code: "RGPR",
+    message: "Play Lazer tag"
+  },  {
+    number: 131,
+    code: "XXO3",
+    message: "Only eat food that you’ve never eaten before for a day"
+  },  {
+    number: 132,
+    code: "UHK6",
+    message: "Make a Peppar Projektet song"
+  },  {
+    number: 133,
+    code: "WEXP",
+    message: "Play at a playground"
+  },  {
+    number: 134,
+    code: "OHL8",
+    message: "Try to beat hardcore Minecraft"
+  },  {
+    number: 135,
+    code: "LRCM",
+    message: "Dye your hair"
+  },  {
+    number: 136,
+    code: "2FH7",
+    message: "Play Kasta gris"
+  },  {
+    number: 137,
+    code: "TMVA",
+    message: "Play drunk Mario Kart"
+  },  {
+    number: 138,
+    code: "2VHO",
+    message: "Play drunk Super Smash Bros"
+  },  {
+    number: 139,
+    code: "4F45",
+    message: "Take a cold shower"
+  },  {
+    number: 140,
+    code: "AKUL",
+    message: "Buy something nice for yourself"
+  },  {
+    number: 141,
+    code: "WHLV",
+    message: "Buy something nice for a loved one"
+  },  {
+    number: 142,
+    code: "7XP4",
+    message: "Plan your dream trip"
+  },  {
+    number: 143,
+    code: "VHVH",
+    message: "Listen to a newly released album that you haven’t heard"
+  },  {
+    number: 144,
+    code: "LDO7",
+    message: "Go to Poland"
+  },  {
+    number: 145,
+    code: "FJ3M",
+    message: "Visit Sundsvall"
+  },  {
+    number: 146,
+    code: "XV08",
+    message: "Learn a new song on the piano"
+  },  {
+    number: 147,
+    code: "QSK9",
+    message: "Visit Umea"
+  },  {
+    number: 148,
+    code: "XY6L",
+    message: "Go to Italy"
+  },  {
+    number: 149,
+    code: "TBNM",
+    message: "Go to Finland"
+  },  {
+    number: 150,
+    code: "SVTK",
+    message: "Visit Gothenburg"
   },
 ];
 
